@@ -1,4 +1,4 @@
-baseurl = "https://pangpang-blog.github.io"
+baseurl = "https://pangpang-blog.github.io/"
 languageCode = "en-us"
 title = "PangPang - Blog"
 # Copyright notice. This is displayer in the footer.

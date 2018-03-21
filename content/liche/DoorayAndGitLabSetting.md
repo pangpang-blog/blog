@@ -1,4 +1,8 @@
-# Dooray & GitLab 关联设置
+---
+title: "Dooray & GitLab 关联设置"
+date: 2018-03-20T18:23:09+08:00
+draft: true
+---
 
 [Dooray](https://dooray.com)是一个与其它所有工具连接，且简单易懂的业务工具。
 
