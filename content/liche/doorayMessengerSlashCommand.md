@@ -1,3 +1,9 @@
+---
+title: "Dooray! > Messenger > slash command 介绍"
+date: 2018-05-28T18:23:09+08:00
+draft: true
+---
+
 ## Dooray! > Messenger >  *slash command 介绍*
 
 ### 联动服务
@@ -6,7 +12,7 @@
 
 要介绍的功能是如何使用command，以后会支持对bot、API等多样的联动服务。
 
-### 슬래시 커맨드
+### slash command
 
 slash command是在`/`后面加字母的方式实现特定功能的命令语句。Dooray messenger提供 `/mute`, `/status`, `/search` 等基本语句。比如，查询信息内容，变更自己的状态等功能，在不使用鼠标点击情况下，通过命令快速实现。
 
@@ -21,8 +27,6 @@ slash command是在`/`后面加字母的方式实现特定功能的命令语句�
 用户输入 `/`文字和对话窗登记过的command。输入的command通过messenger服务传输到command 服务。command 服务中把处理结果返回到messenger服务。messenger服务是通过command 服务返回的数据展示给用户。
 
 ### 使用环境
-
-사용자는 PC와 모바일에서 커맨드를 입력하고 결과를 확인할 수 있습니다. 그렇기 때문에 커맨드 제작자는 모바일 환경에서의 레이아웃도 신경써야 합니다.현재 대화방에 커맨드를 추가하는 기능은 PC에서만 제공합니다.
 
 用户可以在pc和手机中输入command确认返回结果。所以，命令制作者需要考虑手机环境下的layout。目前只对pc支持自定义命令功能。
 
@@ -220,8 +224,6 @@ Command服务会根据参数，返回数据。 `/hi` Command没有特殊的数�
 
 ## 在message中添加按钮
 
-응답 메시지는 `attachments` 필드를 이용해 버튼을 표시할 수 있습니다. 메시지를 받은 사람은 버튼을 눌러 상호작용을 할 수 있습니다. 버튼을 넣는 방법과 버튼을 선택한 결과를 받아 처리하는 방법을 알아보겠습니다.
-
 响应的message可以根据 `attachments` 字段设置按钮。收到message的用户可以点击按钮来进行相互。 下面介绍通过选择按钮和点击按钮结果的处理方法。 
 
 下面是包含attachments字段，在对话窗中是否要发送message的例子。
@@ -369,7 +371,7 @@ attachments message中可以添加下拉框。
 
 ![13](http://static.toastoven.net/prod_dooray_messenger/integration/13.png)
 
-#### 대화방 목록对话窗目录
+#### 对话窗目录
 
 设置`dataSource`的值为`channels`发送message，可以显示用户所属的对话窗目录。
 
