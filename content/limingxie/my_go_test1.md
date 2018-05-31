@@ -178,7 +178,7 @@ func Tenant_SetTestData(testXormEngine *xorm.Engine, xormEngine *xorm.Engine) {
 
 ```
 
-## 几个人一起做的项怎么管理原始数据？
+## 多人做的项目如何管理原始数据？
 我是这么做的  
 
 - 准备一个`公用的mysql数据库`(没有的话可以让下班最晚的员工开数据库共享...^^)  
