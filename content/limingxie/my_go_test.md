@@ -1,5 +1,5 @@
 ---
-title: "Go项目的测试代码（基础）"
+title: "Go项目的测试代码1（基础）"
 date: 2018-05-27T20:36:02+08:00
 draft: true
 ---
@@ -137,6 +137,6 @@ go tool cover -html=./coverage.out
 -----
 
 下篇文章介绍项目中我是怎么写测试代码的...^^  
-[Go项目的测试代码（项目运用）](https://pangpang-blog.github.io/limingxie/my_go_test1/)
+[Go项目的测试代码2（项目运用）](https://pangpang-blog.github.io/limingxie/my_go_test1/)
 
 ### 未完继续
